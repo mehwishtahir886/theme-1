@@ -1,0 +1,297 @@
+*{
+margin:0;
+padding:0;
+list-style:none;
+font-family: 'Roboto', sans-serif;
+}
+.container{
+	position:relative;
+}
+.header{
+	position:relative;
+	height:100vh;
+	width:90%;
+	margin-left:5%;
+	background-image:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url('home.jpeg');
+	background-size:100% 100%;
+	background-attachment:fixed;
+}
+.nav{
+	position:absolute;
+	left:50%;
+	top:60px;
+	height:20vh;
+	width:50%;
+}
+.nav ul li{
+	float:left;
+	font-size:25px;
+	margin-left:5%;
+	text-transform:capitalize;
+	color:white;
+}
+.nav ul li:hover{
+	color:grey;
+}
+.hero-text{
+	position:absolute;
+	width:50%;
+	height:40vh;
+	color:white;
+	text-align:center;
+    left:22%;
+	top:30vh;
+}
+.hero-text h1{
+	text-transform:capitalize;
+	font-size:55px;
+	text-transform:uppercase;
+	
+}
+.hero-text p{
+	margin-top:50px;
+	font-size:22px;
+}
+.btn{
+	font-size:22px;
+	text-transform:capitalize;
+	padding:15px;
+	box-sizing:border-box;
+	background:transparent;
+	color:white;
+	margin-top:30px;
+	border:2px solid white;
+}
+.btn:hover{
+	background-image:linear-gradient(grey, black, grey);
+	box-shadow:1px 2px 2px 5px;
+	
+}
+.page2{
+	padding:1px;
+	box-sizing:border-box;
+	height:120vh;
+width:90%;
+	margin-left:5%;
+}
+.page2 h2{
+		margin-top:40px;
+	color:black;
+	font-size:35px;
+	text-align:center;
+}
+.page2 p{
+	text-align:center;
+	margin-top:30px;
+}	
+.one{
+	position:relative;
+	height:100vh;
+	width:100%;
+}
+.a{
+	height:35vh;
+	width:25%;
+	border:2px solid grey;
+	float:left;
+	margin-top:50px;
+	margin-left:5%;
+	text-align:center;
+}
+.a i{
+	font-size:50px;
+	border-radius:50px;
+	color:grey;
+	padding:15px;
+	box-sizing:border-box;
+	margin-top:-30px;
+
+}
+.a i:hover{
+	background:steelblue;
+	color:white;
+	
+
+}
+.a:hover{
+	box-shadow:5px 5px 5px 5px;
+	border-box:steelblue;
+}
+.a h3{
+	margin-top:40px;
+	color:black;
+	font-size:35px;
+	text-align:center;
+	text-transform:uppercase;
+}
+.a p{
+	text-align:center;
+	margin-top:30px;
+}	
+.page3{
+	position:relative;
+height:60vh;
+width:100%;
+}
+.page3 h3{
+	margin-top:20px;
+	margin-left:10%;
+	color:black;
+	font-size:35px;
+}
+.page3 p{
+	margin-left:10%;
+	color:grey;
+	margin-top:30px;
+	font-size:20px;
+}
+.two{
+position:absolute;
+width:40%;
+height:380px;
+left:47%;
+top:0;
+}
+.two img{
+height:100%;
+width:100%;
+}	
+.page4{
+		position:relative;
+	height:125vh;
+	width:100%;
+}
+.page4 h3{
+	text-align:center;
+	margin-left:10%;
+	color:black;
+	font-size:35px;
+}
+.page4 p{
+		margin-left:10%;
+	color:grey;
+	margin-top:30px;
+	font-size:20px;
+	text-align:center;
+}
+.three{
+	padding:1px;
+	box-sizing:border-box;
+	position:absolute;
+	width:70%;
+	height:100vh;
+	left:13%;	
+	top:20vh;
+}
+.two1{
+	float:left;
+height:230px;
+width:29%;
+margin-left:3%;
+margin-top:30px;
+}
+.two1 img{
+	height:100%;
+width:100%;
+}
+.page5{
+	
+	height:40vh;
+	width:90%;
+	margin-left:5%;
+	text-align:center;
+	background-image:linear-gradient(rgba(0, 0, 0, .7),rgba(0, 0, 0, .6)),url('my.jpg');
+	background-size:100% 100%;
+	color:white;
+	padding:1px;
+	box-sizing:border-box;
+}
+.page5 h1{
+	font-size:50px;
+	margin-top:60px;		
+}
+.page5 p{
+		text-align:center;
+	margin-top:20px;
+	font-size:22px;
+}
+.page6{
+	position:relative;
+	height:60vh;
+	width:90%;
+	margin-left:5%;
+}
+.page6 h1{
+		font-size:50px;
+	margin-top:40px;
+	text-align:center;
+}
+.left{
+	position:absolute;
+	border-right:1px solid grey;
+	left:5%;
+	top:120px;
+	height:350px;
+	width:38%;
+}
+.left h2{
+		margin-top:40px;
+		color:black;
+		font-size:30px;
+		margin-left:10%;
+}
+.left p{
+	margin-top:50px;
+	font-size:18px;
+	color:grey;
+}
+.right{
+	position:absolute;
+	left:48%;
+	top:120px;
+	height:350px;
+	width:38%;
+}
+.right h2{
+	margin-top:40px;
+		color:black;
+		font-size:30px;
+}
+.page7{
+position:relative;
+	height:20vh;
+	width:90%;
+	margin-left:5%;
+	background:black;
+}
+.page7 ul {
+	position:absolute;
+	padding:1px;
+	box-sizing:border-box;
+	width:20%;
+	height:20px;
+	top:50px;
+	left:45%;
+}
+.page7 ul li {
+	color:white;
+	width:15%;
+	height:20px;
+	display:inline-block;
+	margin-left:4%;
+}
+.page7 ul li i{
+	font-size:22px;
+}
+.page7 p{
+	position:absolute;
+		font-size:18px;
+        color:white; 
+		text-align:center;
+        top:100px;
+        left:40%;		
+		}
+	
+
+	
+
